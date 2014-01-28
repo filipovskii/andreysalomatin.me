@@ -42,6 +42,13 @@
     font-style: normal;
 }
 
+@font-face {
+  font-family: 'DejaVuSansMono';
+  src: url('../fonts/DejaVuSansMono.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Apply these base styles to all icons */
 .icon-ghost:before,
 .icon-feed:before,
@@ -233,7 +240,7 @@ mark {
 
 code, tt {
     padding: 1px 3px;
-    font-family: Inconsolata, monospace;
+    font-family: 'DejaVuSansMono', monospace;
     font-size: 0.85em;
     white-space: pre-wrap;
     border: 1px solid #E3EDF3;
@@ -248,7 +255,7 @@ pre {
     border: 1px solid #E3EDF3;
     width: 100%;
     padding: 10px;
-    font-family: Inconsolata, monospace;
+    font-family: 'DejaVuSansMono', monospace;
     font-size: 0.9em;
     white-space: pre;
     overflow: auto;
