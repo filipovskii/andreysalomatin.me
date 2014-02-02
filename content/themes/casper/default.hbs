@@ -32,12 +32,18 @@
         <a class="subscribe icon-feed" href="{{@blog.url}}/rss/"><span class="tooltip">Subscribe!</span></a>
         <div class="inner">
              <section>
-               Find me on
-               <a href="https://github.com/filipovskii">Github</a> or
-               <a href="https://twitter.com/filipovskii">Twitter</a>
+               <a href="about">Обо мне</a>
              </section>
-             <section class="copyright">All content copyright <a href="{{@blog.url}}/">{{@blog.title}}</a> &copy; {{date format="YYYY"}} &bull; All rights reserved.</section>
-             <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://ghost.org">Ghost</a></section>
+             <section class="copyright">
+               <a href="{{@blog.url}}/">{{@blog.title}}</a>
+               &copy; {{date format="YYYY"}} &bull;
+               Все права защищены.
+             </section>
+
+             <section class="poweredby">
+               Опубликовано с помощью
+               <a class="icon-ghost" href="http://ghost.org">Ghost</a>
+             </section>
         </div>
     </footer>
 
