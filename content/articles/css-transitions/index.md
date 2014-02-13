@@ -138,6 +138,21 @@ CSS:
 
 <p data-height="350" data-theme-id="4356" data-slug-hash="mEKvh" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/filipovsky/pen/mEKvh'>Transition several</a> by Andrey Salomatin (<a href='http://codepen.io/filipovsky'>@filipovsky</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
+
+### Поддержка браузеров
+
+На настоящий момент большинство браузеров поддерживает свойство
+`transition`, хотя некоторые только с префиксом. Используйте все формы
+для большего охвата:
+
+
+    .animatable {
+        -webkit-transition: width 1s ease-out 1s;
+        -moz-transition: width 1s ease-out 1s;
+        -o-transition: width 1s ease-out 1s;
+        transition: width 1s ease-out 1s;
+    }
+
 ### Зачем-то
 
 Я использую `transition` для изменения цвета кнопок и ссылок (обратите
