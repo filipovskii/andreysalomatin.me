@@ -419,13 +419,16 @@ form {
 
     &::before, &::after {
       display: block;
-      content: ' ';
       height: 4em;
       width: 4em;
 
       background: url('../images/arrow.svg');
       background-size: 100% 100%;
       position: absolute;
+
+      @media (min-width: $screen-sm-min) {
+        content: ' ';
+      }
     }
 
     &::before {
