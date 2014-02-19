@@ -471,3 +471,16 @@ form {
 	content: "\e603";
 }
 // END ICONS
+
+
+// DISABLE ANIMATION
+@media (max-width: $screen-xs-max) {
+  .wow {
+    visibility: visible !important;
+    -webkit-animation: none !important;
+       -moz-animation: none !important;
+         -o-animation: none !important;
+        -ms-animation: none !important;
+            animation: none !important;
+  }
+}
