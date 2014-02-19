@@ -1,0 +1,470 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+@import 'compass/css3';
+
+@import 'sass-bootstrap/lib/variables';
+@import 'sass-bootstrap/lib/mixins';
+@import 'sass-bootstrap/lib/normalize';
+@import 'sass-bootstrap/lib/grid';
+@import 'sass-bootstrap/lib/responsive-utilities';
+@import 'sass-bootstrap/lib/forms';
+@import 'sass-bootstrap/lib/buttons';
+
+$font-sans: 'Open Sans', sans-serif;
+$font-serif: 'Noto Serif', serif;
+
+$color-text-dark: #333;
+$color-text-red: #C75C5C;
+$color-text-white: #fff;
+$color-text-grey: #e5e5e5;
+$color-text-dark-grey: #999;
+$color-text-green: #76C2AF;
+
+$color-bg-yellow: #F5CF87; // f4b459;
+$color-bg-blue: #324d5b; //2b414d;
+$color-bg-green: #76C2AF;
+$color-bg-grey: #e5e5e5;
+
+html * {
+  -webkit-font-smoothing: antialiased;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: $color-text-dark;
+  font-family: $font-sans;
+}
+
+div,
+header,
+footer,
+section,
+article,
+figure,
+input,
+label,
+blockquote,
+.btn {
+  box-sizing: border-box;
+}
+
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.page-header {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+  background: url('../images/header-bg.jpg') no-repeat center center fixed;
+  padding: 20px;
+
+  text-align: center;
+
+  h1, h2 {
+    color: $color-text-white;
+  }
+
+  @include background-size('cover');
+}
+
+.header-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50%;
+  width: 100%;
+
+  // background: rgba(229, 229, 229, 0.5);
+}
+
+.center {
+  text-align: center;
+}
+
+.header-img {
+  position: absolute;
+  bottom: 1em;
+  left: 0;
+  right: 0;
+  height: 2em;
+  width: 2em;
+  margin: auto;
+
+  svg {
+    margin: auto;
+    width: 2em;
+    height: 2em;
+  }
+}
+
+
+// BASE TYPE
+
+h1, h2, h3, h4, p {
+  margin: 0;
+  line-height: 1.3em;
+}
+
+h1 {
+  padding: 0.25em 0;
+  font-weight: 400;
+}
+
+h2 {
+  padding: 0.1em 0;
+}
+
+h3 {
+  padding: 0.4em 0;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+p {
+  font-size: 0.9em;
+}
+
+.secondary-cta {
+  display: block;
+  padding: 5px 16px;
+  font-size: 0.9em;
+  font-weight: 600;
+
+  max-width: 9em;
+  margin: auto;
+}
+
+
+a {
+  color: #26a6d1;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2394bc;
+}
+
+figure, figcaption {
+  text-align: center;
+}
+
+figcaption {
+  margin: 1em;
+}
+
+
+.btn-lg {
+  margin-top: 2em;
+  font-size: 1.2em;
+  height: 60px;
+}
+
+.top-offset {
+  margin-top: 1em;
+}
+
+.grey-text {
+  color: $color-text-dark-grey;
+}
+
+// END BASE TYPE
+
+
+// Copy
+.points {
+
+  h1, h2 {
+    text-align: center;
+  }
+
+  h2 {
+    color: $color-text-red;
+  }
+
+  header i {
+    font-size: 6em;
+  }
+
+  img {
+    width: 7em;
+    height: 7em;
+  }
+
+  article {
+    text-align: center;
+  }
+
+  p {
+    padding: 0 2em;
+  }
+
+}
+
+.testimonial {
+  blockquote {
+
+    p {
+      font-family: $font-serif, serif;
+      font-style: italic;
+      line-height: 1.8em;
+    }
+
+    footer {
+      //font-style: italic;
+    }
+  }
+
+  img {
+    @include border-radius(50%);
+  }
+
+}
+
+.section-yellow {
+  background: $color-bg-yellow;
+}
+
+.section-blue {
+  background: $color-bg-blue;
+  color: $color-text-white;
+}
+
+.section-grey {
+  background-color: $color-bg-grey;
+}
+
+.points-dark {
+  background: $color-bg-blue;
+
+  header {
+    color: $color-text-white;
+  }
+
+  p {
+    color: $color-text-grey;
+  }
+}
+
+.blocks {
+  text-align: center;
+
+  h2 {
+    color: $color-text-green;
+  }
+}
+
+.cta {
+  // text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+// End Copy
+
+// Grid
+
+.full {
+  @include make-md-column(12);
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.points, .testimonial, .blocks, .cta, .skill-details {
+  @include make-row();
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.points {
+  padding: 5em 0;
+
+  article {
+    @include make-md-column(4);
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+}
+
+.testimonial {
+
+  figure {
+    padding-top: 3em;
+    @include make-md-column(5);
+
+    img {
+      width: 10em;
+      height: 9em;
+    }
+  }
+
+  blockquote {
+    padding: 3em 0;
+    margin: 0;
+
+    @include make-md-column(6);
+
+    p {
+      border-left: 3px solid #999;
+      padding-left: 1em;
+    }
+
+    footer {
+      padding: 1.5em 1em 0 1em;
+    }
+  }
+
+  .offset {
+    @include make-md-column-offset(1);
+  }
+}
+
+.blocks {
+  padding: 5em 0;
+
+  figure {
+    @include make-xs-column(12);
+    @include make-sm-column(6);
+    @include make-md-column(3);
+
+    margin-top: 3em;
+
+    padding: 0;
+    height: 12em;
+
+    img {
+      height: 100%;
+    }
+
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.skill-details {
+  padding: 3em 0;
+
+  article {
+    margin-top: 1.5em;
+    @include make-xs-column(6);
+    @include make-sm-column(4);
+    @include make-md-column(2);
+  }
+
+  img {
+    width: 30%;
+    height: auto;
+  }
+
+  h4 {
+    color: #4F5D73;
+    font-weight: 200;
+  }
+}
+
+.cta {
+  padding: 3em 20px;
+
+  figure {
+    @include make-md-column(4);
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  article {
+    @include make-md-column(8);
+  }
+
+  label, input {
+    display: inline-block;
+    width: 100%;
+  }
+
+  form {
+    padding-top: 3em;
+  }
+
+  input {
+    font-size: 1.2em;
+    height: 2.5em;
+    margin-bottom: 1em;
+  }
+
+
+
+  .arrow-wrapper {
+    display: inline-block;
+    position: relative;
+
+    &::before, &::after {
+      display: block;
+      content: ' ';
+      height: 4em;
+      width: 4em;
+
+      background: url('../images/arrow.svg');
+      background-size: 100% 100%;
+      position: absolute;
+    }
+
+    &::before {
+      top: 0.2em;
+      left: -5em;
+    }
+
+    &::after {
+      @include transform(scaleX(-1));
+      top: 0.2em;
+      right: -5em;
+    }
+  }
+}
+
+// End Grid
+
+// ICONS
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-build:before {
+	content: "\e601";
+}
+.icon-manage:before {
+	content: "\e602";
+}
+.icon-promote:before {
+	content: "\e603";
+}
+// END ICONS
