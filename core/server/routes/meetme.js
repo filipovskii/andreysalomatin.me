@@ -6,7 +6,7 @@ module.exports = function (server) {
 
   console.log('PATH', meetmePath);
 
-  server.use('/meetme', express.static(meetmePath));
+  server.use('/job', express.static(meetmePath));
   function log(req, res, next) {
     console.log('IN MEETME', res.body);
     next();
