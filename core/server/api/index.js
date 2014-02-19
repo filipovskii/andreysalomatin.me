@@ -11,6 +11,7 @@ var _             = require('underscore'),
     posts         = require('./posts'),
     users         = require('./users'),
     tags          = require('./tags'),
+    mail          = require('./mail'),
     requestHandler,
     init;
 
@@ -80,5 +81,6 @@ module.exports = {
     settings: settings,
     db: db,
     requestHandler: requestHandler,
-    init: init
+    init: init,
+    mail: mail
 };

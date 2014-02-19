@@ -28,4 +28,6 @@ module.exports = function (server) {
     server.get('/ghost/api/v0.1/db/', middleware.auth, api.db.exportContent);
     server.post('/ghost/api/v0.1/db/', middleware.authAPI, middleware.busboy, api.requestHandler(api.db.importContent));
     server.del('/ghost/api/v0.1/db/', middleware.authAPI, api.requestHandler(api.db.deleteAllContent));
+
+    server.post('/api/job', api.requestHandler(api.mail.job));
 };
