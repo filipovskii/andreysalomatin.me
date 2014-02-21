@@ -68,6 +68,21 @@ $(function () {
     return false;
   });
 
+
+  $('a').on('click', function () {
+    var a = this;
+
+
+    if (a.id === 'cv') {
+      window.analytics.track('Downloaded CV');
+      return;
+    }
+
+    window.analytics.track('Clicked Link', {
+      text: a.innerText
+    });
+  });
+
   function s4() {
     return Math.floor((1 + Math.random()) * 0x10000)
                .toString(16)
