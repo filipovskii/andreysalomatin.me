@@ -21,7 +21,7 @@ body {
 
 .reveal {
   font-family: "Open Sans", sans-serif;
-  font-size: 42px;
+  font-size: 34px;
   font-weight: normal;
   letter-spacing: -0.02em;
   color: #333333; }
@@ -43,7 +43,7 @@ body {
   margin: 0 0 20px 0;
   color: #333333;
   font-family: "Roboto Slab", "Courier New", serif;
-  line-height: 1.2em;
+  line-height: 1.9em;
   letter-spacing: 0em;
   text-transform: none;
   text-shadow: none; }
@@ -153,10 +153,13 @@ body {
   font-family: 'Droid Sans Mono', monospace;
   padding: 1em; }
 
+.reveal li {
+  line-height: 1.9em; }
+
 .reveal .slide-footer {
-  padding: 1%;
-  border-top: 1px solid #333;
+  padding: 2%;
+  border-top: 10px solid #333;
   position: absolute;
   left: -50%;
-  top: 45%;
+  top: 40%;
   width: 100%; }
