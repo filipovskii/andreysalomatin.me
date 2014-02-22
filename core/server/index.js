@@ -128,7 +128,8 @@ function setup(server) {
         // Load helpers
         helpers.loadCoreHelpers(adminHbs, assetHash);
 
-        routes.meetme(server);
+        routes.custom.meetme(server);
+        routes.custom.slides(server);
 
         // ## Middleware
         middleware(server, dbHash);
