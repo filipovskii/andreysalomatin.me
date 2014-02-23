@@ -1,11 +1,11 @@
 var api         = require('./api'),
     admin       = require('./admin'),
     frontend    = require('./frontend'),
-    meetme      = require('./meetme');
+    custom      = require('./custom');
 
 module.exports = {
     api: api,
     admin: admin,
     frontend: frontend,
-    meetme: meetme
+    custom: custom
 };
