@@ -24,7 +24,7 @@ module.exports.slides = function (server) {
       return dir.indexOf('.') !== 0 && fs.lstatSync(slPath).isDirectory();
     })
     .forEach(function (dir) {
-      var slPath = path.join(basePath, dir);
+      var slPath = path.join(basePath, dir, 'dist');
       server.use('/slides/' + dir, express.static(slPath));
     });
 };
