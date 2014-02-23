@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600&subset=latin,cyrillic");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,600&subset=latin,cyrillic");
 @import url("http://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=latin,cyrillic");
 @import url("http://fonts.googleapis.com/css?family=Droid+Sans+Mono");
 /**
@@ -42,7 +42,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #333333;
-  font-family: "Roboto Slab", "Courier New", serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.9em;
   letter-spacing: 0em;
   text-transform: none;
@@ -163,3 +163,6 @@ body {
   left: -50%;
   top: 40%;
   width: 100%; }
+
+.reveal h1, .reveal h2 {
+  font-weight: 300; }

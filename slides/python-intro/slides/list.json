@@ -1,11 +1,13 @@
 [
-    "01-me.md",
-    "02-rules.md",
-    "03-goals.md",
-    "04-syntax.md",
-    "05-dynamic-typing.md",
-    "06-interpreted.md",
-    "07-everything-is-an-object.md",
-    "08-paradigms.md",
-    "09-std-lib.md"
+    "me.md",
+    "rules.md",
+    "goals.md",
+    "syntax.md",
+    "dynamic-typing.md",
+    "interpreted.md",
+    "everything-is-an-object.md",
+    "paradigms.md",
+    "dzen.md",
+    "std-lib.md",
+    "example.md"
 ]

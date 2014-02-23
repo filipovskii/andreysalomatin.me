@@ -25,7 +25,8 @@
         font-style: normal;
 }
 
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600&subset=latin,cyrillic');
+@import
+url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,600&subset=latin,cyrillic');
 @import url('http://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=latin,cyrillic');
 @import url('http://fonts.googleapis.com/css?family=Droid+Sans+Mono');
 // ---------------------------------------------
@@ -38,7 +39,7 @@ $mainFontSize: 34px;
 $mainColor: #333;
 $linkColor: #0072ff;
 $linkColorHover: #0099ff;
-$headingFont: 'Roboto Slab', 'Courier New', serif;
+$headingFont: 'Open Sans', sans-serif;
 $headingColor: #333;
 $headingTextShadow: none;
 $headingLetterSpacing: 0em;
@@ -94,5 +95,8 @@ $backgroundColor: #fff;
   left: -50%;
   top: 40%;
   width: 100%;
+}
 
+.reveal h1, .reveal h2 {
+  font-weight: 300;
 }
