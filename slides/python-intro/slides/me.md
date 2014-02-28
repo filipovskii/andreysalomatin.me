@@ -1,6 +1,5 @@
 ## Андрей Саломатин
 
-Материалы: http://andreysalomatin.me/python-basics-training/
 
 Тел: +7 926 274 62 57
 
@@ -9,6 +8,9 @@ Email: [hello@andreysalomatin.me][mailto]
 Twitter: [@filipovskii][twitter]
 
 Блог: [andreysalomatin.me][blog]
+
+<hr/>
+Материалы: http://andreysalomatin.me/python-basics-training/
 
 
 [mailto]: mailto:hello@andreysalomatin.me

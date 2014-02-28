@@ -3,12 +3,20 @@
     "subscribe.md",
     "rules.md",
     "goals.md",
+    "plan.md",
+    "guido.md",
+    "monthy.md",
+    "history.md",
+    "character.md",
+    "pros-cons.md",
+    "implementations.md",
+    "features.md",
     "syntax.md",
     "dynamic-typing.md",
     "interpreted.md",
-    "everything-is-an-object.md",
     "paradigms.md",
     "dzen.md",
     "std-lib.md",
-    "example.md"
+    "example.md",
+    "industry.md"
 ]
