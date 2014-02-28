@@ -10,10 +10,10 @@ Twitter: [@filipovskii][twitter]
 Блог: [andreysalomatin.me][blog]
 
 <hr/>
-Материалы: http://andreysalomatin.me/python-basics-training/
+Материалы: http://andreysalomatin.me/trainings/python-basics
 
 
 [mailto]: mailto:hello@andreysalomatin.me
 [twitter]: https://twitter.com/filipovskii
 [blog]: http://andreysalomatin.me
-[slides]: http://andreysalomatin.me/python-basics-training/
+[slides]: http://andreysalomatin.me/trainings/python-basics

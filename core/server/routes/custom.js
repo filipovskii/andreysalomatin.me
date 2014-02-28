@@ -8,10 +8,6 @@ module.exports.meetme = function (server) {
   var meetmePath = path.join(__dirname, '../../../meetme/dist')
 
   server.use('/job', express.static(meetmePath));
-  function log(req, res, next) {
-    console.log('IN MEETME', res.body);
-    next();
-  }
 };
 
 module.exports.slides = function (server) {
@@ -28,3 +24,8 @@ module.exports.slides = function (server) {
       server.use('/slides/' + dir, express.static(slPath));
     });
 };
+
+module.exports.trainings = function (server) {
+  var basePath = path.join(__dirname, '../../../trainings');
+  server.use('/trainings', express.static(basePath));
+}

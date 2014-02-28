@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
 
-        <title>Python Dev Enviroment</title>
+        <title>Git: Basics</title>
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -35,91 +35,22 @@
 
             <div class="slides">
 
-                
-                    
-                        
-    <section data-markdown="slides/index.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/interpreter.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/interpreter-functions.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/python-files.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/pydev.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/git.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/git-basics.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/git-collab.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/git-model.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/git-workflow.md"></section>
-
-
-                    
-                    
-                
+                <% _.forEach(slides, function(slide) { %>
+                    <% if (!_.isArray(slide)) { %>
+                        <%= section(slide) %>
+                    <% } %>
+                    <% if (_.isArray(slide)) { %>
+                        <section>
+                            <% _.forEach(slide, function(verticalslide) { %>
+                                <%= section(verticalslide) %>
+                            <% }); %>
+                        </section>
+                    <% } %>
+                <% }); %>
 
               <footer class="slide-footer">
-                <a href="//andreysalomatin.me/slides/python-dev-env">
-                  http://andreysalomatin.me/slides/python-dev-env
+                <a href="//andreysalomatin.me/slides/python-intro">
+                  http://andreysalomatin.me/slides/python-intro
                 </a>
               </footer>
 

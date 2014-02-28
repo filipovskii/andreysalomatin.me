@@ -1,12 +1,13 @@
 ##  PyDev
 
-Плагин для Eclipse.
+<div style="margin-top: -3%; float:right;width:30%">
+  <img  src="images/pydev.png" style="width:100%;">
+  <img  src="images/eclipse.png" style="width:100%;">
+</div>
 
-  1. [Загрузите JDK][java]
-  2. [Загрузите Eclipse][eclipse]
-  3. В Eclipse: `Help ‣ Eclipse Marketplace`
-  4. Найдите и установите плагин PyDev
+#### Плагин для Eclipse
 
+#### Полноценная среда разработки на Python
 
-[eclipse]: //www.eclipse.org/downloads/
-[java]: //www.oracle.com/technetwork/java/javase/downloads/index.html
+#### Eclipse зависит от JDK
+
