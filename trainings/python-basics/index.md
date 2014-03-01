@@ -4,7 +4,7 @@
 Подпишитесь на рассылку, чтобы получать материалы тренинга, домашние задания и объявления: [http://eepurl.com/O90qX](http://eepurl.com/O90qX).
 
 
-## 1 занятие
+<h2 id="session-1">1 занятие</h2>
 
 ### Слайды:
 
@@ -14,7 +14,12 @@
 
 ### Практика:
 
-* [Среда Разработки: Практика][practice]
+* [Среда Разработки: Практика][practice-1]
+
+### Домашнее задание:
+
+* [Среда Разработки: Задание на дом][hw-1]
+
 
 ### Дистрибутивы:
 
@@ -48,7 +53,8 @@
 [intro]: http://andreysalomatin.me/slides/python-intro
 [env]: http://andreysalomatin.me/slides/python-dev-env
 [git]: http://andreysalomatin.me/slides/git-basics
-[practice]: http://andreysalomatin.me/trainings/python-basics/practice-1
+[practice-1]: http://andreysalomatin.me/trainings/python-basics/practice-1
+[hw-1]: http://andreysalomatin.me/trainings/python-basics/hw-1
 [history]: http://python-history.blogspot.ru/2009/01/introduction-and-overview.html
 [design]: http://python-history.blogspot.ru/2009/01/pythons-design-philosophy.html
 [keynote]: http://www.youtube.com/watch?v=EBRMq2Ioxsc&list=PLtXTZDIx0i2vyge-bcV_0siHGI2QKu5_-
