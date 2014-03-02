@@ -98,34 +98,35 @@ Python.
 
 ## Совместная работа в GitHub
 
-  1. Создайте аккаунт на [github][github]
-  2. Найдите [репозитрий тренинга][repo] и создайте форк.
+  1. Загрузите и установите [git](http://git-scm.com/download/win)
+  2. Создайте аккаунт на [github][github]
+  3. Найдите [репозитрий тренинга][repo] и создайте форк.
 
      <img src="fork.png" style="max-width:100%">
 
      Теперь на GitHub есть ваша версия репозитория.
 
-  3. Найдите среди **своих** репозиториев `python-basics`, скопируйте
+  4. Найдите среди **своих** репозиториев `python-basics`, скопируйте
      https-ссылку на него:
 
      <img src="repo-link.png" style="max-width: 100%">
 
-  4. Импортируйте проект в Eclipse:
+  5. Импортируйте проект в Eclipse:
 
      <img src="import.gif" style="max-width:100%">
 
-  5. В модуле `practice_1` создайте файл с вашим именем, например
+  6. В модуле `practice_1` создайте файл с вашим именем, например
      `aleksey.py`. В нём напишите программу, которая печатает ваше имя.
 
-  6. Сделайте commit:
+  7. Сделайте commit:
 
      <img src="commit.gif" style="max-width:100%">
 
-  7. Сделайте push:
+  8. Сделайте push:
 
      <img src="push.gif" style="max-width:100%">
 
-  8. Создайте pull-request из вашего форка на github в оригинальный
+  9. Создайте pull-request из вашего форка на github в оригинальный
      репозиторий:
 
      <img src="pull-request.gif" style="max-width:100%">
