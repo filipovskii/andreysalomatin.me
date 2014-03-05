@@ -1,11 +1,7 @@
 [
     "index.md",
     "git-history.md",
-    {
-        "attr": {
-            "data-background": "images/diff.svg"
-        }
-    },
+    "diff.md",
     "blame.md",
     {
         "attr": {
