@@ -49,6 +49,38 @@
 * [Git Internals - Git Objects][git-int-2]
 
 
+<span id="session-2"></span>
+<h2>2 занятие</h2>
+
+### Слайды:
+
+* [Git][pro-git]
+
+### Практика:
+
+* [Базовый синтаксис Python: Практика][practice-2]
+
+### Домашнее задание:
+
+* [Базовый синтаксис Python: Задание на дом][hw-2]
+
+### Ссылки:
+
+* [A Visual Git Reference][visual-git]
+* [A successful Git branching model][git-branching-model]
+* [GitHub Help: Syncing a fork][sync-fork]
+* [Python Built-in Types][built-in-types]
+* [Python: List Comprehensions][list-compr]
+* [More Control Flow Tools][flow-control]
+* [PEP 8 -- Style Guide for Python Code][style-guide]
+* [PEP 257 -- Docstring Conventions][docstring-conventions]
+
+### Ссылки для углублённого изучения:
+
+* [Git Internals - Git References][git-int-ref]
+* [Git Internals - The Refspec][git-int-refspec]
+* [Unicode HOWTO][unicode]
+
 
 [intro]: http://andreysalomatin.me/slides/python-intro
 [env]: http://andreysalomatin.me/slides/python-dev-env
@@ -69,3 +101,20 @@
 
 [fork]: https://help.github.com/articles/fork-a-repo
 [pull]: https://help.github.com/articles/using-pull-requests
+
+
+<!-- Session 2 -->
+[practice-2]: http://andreysalomatin.me/trainings/python-basics/practice-2
+[hw-2]: http://andreysalomatin.me/trainings/python-basics/hw-2
+[pro-git]:http://andreysalomatin.me/slides/git-pro
+[visual-git]: http://marklodato.github.io/visual-git-guide/index-en.html
+[git-branching-model]: http://nvie.com/posts/a-successful-git-branching-model/
+[sync-fork]: https://help.github.com/articles/syncing-a-fork
+[built-in-types]: http://docs.python.org/2.7/library/stdtypes.html
+[list-compr]: http://www.secnetix.de/olli/Python/list_comprehensions.hawk
+[flow-control]: http://docs.python.org/2/tutorial/controlflow.html
+[unicode]: http://docs.python.org/2/howto/unicode
+[style-guide]: http://legacy.python.org/dev/peps/pep-0008/
+[docstring-conventions]: http://legacy.python.org/dev/peps/pep-0257/
+[git-int-ref]: http://git-scm.com/book/en/Git-Internals-Git-References
+[git-int-refspec]: http://git-scm.com/book/en/Git-Internals-The-Refspec

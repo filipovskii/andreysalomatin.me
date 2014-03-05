@@ -1,0 +1,49 @@
+[
+    "index.md",
+    "git-history.md",
+    {
+        "attr": {
+            "data-background": "images/diff.svg"
+        }
+    },
+    "blame.md",
+    {
+        "attr": {
+            "data-background": "images/commit.svg"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "images/checkout-1.svg"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "images/checkout-1.svg"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "images/commit-detached.svg"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "images/checkout-b-detached.svg"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "images/reset-commit.svg"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "images/merge-ff.svg"
+        }
+    },
+    "merge.md",
+    "tag.md",
+    "remote.md",
+    "branch-model.md"
+]
