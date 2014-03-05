@@ -19,11 +19,6 @@
     },
     {
         "attr": {
-            "data-background": "images/checkout-1.svg"
-        }
-    },
-    {
-        "attr": {
             "data-background": "images/commit-detached.svg"
         }
     },
