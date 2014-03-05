@@ -1,4 +1,4 @@
-# Generated on 2014-03-05 using generator-reveal 0.3.4
+# Generated on 2014-02-23 using generator-reveal 0.3.4
 module.exports = (grunt) ->
 
     grunt.initConfig
@@ -31,7 +31,7 @@ module.exports = (grunt) ->
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
-        
+
             sass:
                 files: ['css/source/theme.scss']
                 tasks: ['sass']
@@ -41,7 +41,7 @@ module.exports = (grunt) ->
             theme:
                 files:
                     'css/theme.css': 'css/source/theme.scss'
-        
+
         connect:
 
             livereload:
@@ -79,6 +79,7 @@ module.exports = (grunt) ->
                         'bower_components/**'
                         'js/**'
                         'css/*.css'
+                        'images/**'
                     ]
                     dest: 'dist/'
                 },{
