@@ -473,7 +473,7 @@ pre .tex .formula {
 
 <p><img src="add-remote.gif" style="max-width:100%"></p></li>
 <li><p>Влейте изменения из <code>master</code> бранча репозитория <code>original-repo</code> в
- локальный <code>master</code> бранч:</p>
+ локальный <code>master</code> бранч. Тоже самое с бранчем <code>develop</code>:</p>
 
 <p><img src="merge-remote.gif" style="max-width:100%"></p></li>
 </ol>
@@ -520,14 +520,18 @@ pre .tex .formula {
 <h1>Python syntax &mdash; Практика</h1>
 
 <p>Выполняйте каждую задачу в отдельном бранче. Затем сливайте изменения в
-<code>master</code>. Имя бранча должно быть вида <code>practice\[task-name]</code>.</p>
+<code>develop</code>. Имя бранча должно быть вида <code>practice\[task-name]</code>.</p>
 
 <p>Чтобы сохранить историю ветвлений, при <code>merge</code> необходимо
 выбрать: <code>if a fast-forward, create a merge commit</code>.</p>
 
+<p>После выполнения всех заданий, синхронизируйте все бранчи локального
+репозитория с вашим удалённым репозиторием на GitHub и создайте
+pull-request.</p>
+
 <p><img src="no-ff" style="max-width:100%"></p>
 
-<h2>Assertions</h2>
+<h2>assertions</h2>
 
 <p>В папке <code>practice_2</code> создайте файл <code>[first_name]_assertions.py</code> (например
 <code>andrey_assertions.py</code>).</p>
@@ -553,7 +557,7 @@ assert_not_in(a, b)
 
 <p>На каждую функции должно быть два или более теста.</p>
 
-<h2>Делители</h2>
+<h2>dividers</h2>
 
 <p>В файле <code>practice_2/[first-name]_iter</code> реализуйте функцию <code>dividers(x)</code>,
 которая возвращает список всех делителей числа <code>x</code>. Операция деление по
@@ -563,7 +567,7 @@ assert_not_in(a, b)
 [1, 2, 5]
 </code></pre>
 
-<h2>bool-представление</h2>
+<h2>booleans</h2>
 
 <p>Объекты в python можно привести к bool-типу с помощью функции <code>bool()</code>. В
 файле <code>practice_2/[first-name]_iter</code> реализуйте функцию <code>to_bool(lst)</code>,

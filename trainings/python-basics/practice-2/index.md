@@ -8,7 +8,7 @@
      <img src="add-remote.gif" style="max-width:100%">
 
 2. Влейте изменения из `master` бранча репозитория `original-repo` в
-   локальный `master` бранч:
+   локальный `master` бранч. Тоже самое с бранчем `develop`:
 
      <img src="merge-remote.gif" style="max-width:100%">
 
@@ -55,7 +55,7 @@
 # Python syntax &mdash; Практика
 
 Выполняйте каждую задачу в отдельном бранче. Затем сливайте изменения в
-`master`. Имя бранча должно быть вида `practice\[task-name]`.
+`develop`. Имя бранча должно быть вида `practice\[task-name]`.
 
 Чтобы сохранить историю ветвлений, при `merge` необходимо
 выбрать: `if a fast-forward, create a merge commit`.
