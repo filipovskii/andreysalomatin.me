@@ -77,6 +77,7 @@
 
 ### Ссылки для углублённого изучения:
 
+* [Git Stash][git-stashing]
 * [Git Internals - Git References][git-int-ref]
 * [Git Internals - The Refspec][git-int-refspec]
 * [Unicode HOWTO][unicode]
@@ -106,6 +107,7 @@
 <!-- Session 2 -->
 [practice-2]: http://andreysalomatin.me/trainings/python-basics/practice-2
 [hw-2]: http://andreysalomatin.me/trainings/python-basics/hw-2
+[git-stashing]: http://git-scm.com/book/en/Git-Tools-Stashing
 [pro-git]:http://andreysalomatin.me/slides/git-pro
 [visual-git]: http://marklodato.github.io/visual-git-guide/index-en.html
 [git-branching-model]: http://nvie.com/posts/a-successful-git-branching-model/
