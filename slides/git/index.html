@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
 
-        <title>Git: Basics</title>
+        <title>Git</title>
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -35,22 +35,155 @@
 
             <div class="slides">
 
-                <% _.forEach(slides, function(slide) { %>
-                    <% if (!_.isArray(slide)) { %>
-                        <%= section(slide) %>
-                    <% } %>
-                    <% if (_.isArray(slide)) { %>
-                        <section>
-                            <% _.forEach(slide, function(verticalslide) { %>
-                                <%= section(verticalslide) %>
-                            <% }); %>
-                        </section>
-                    <% } %>
-                <% }); %>
+                
+                    
+                        
+    <section data-markdown="slides/git.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/git-basics.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/git-collab.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/git-history.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/diff.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/commit.svg" ></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/checkout-1.svg" ></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/commit-detached.svg" ></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/checkout-b-detached.svg" ></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/reset-commit.svg" ></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/merge-ff.svg" ></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/merge.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/tag.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/branch-model.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/remote.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/git-workflow.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/git-model.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/questions.md"></section>
+
+
+                    
+                    
+                
 
               <footer class="slide-footer">
-                <a href="//andreysalomatin.me/slides/python-intro">
-                  http://andreysalomatin.me/slides/python-intro
+                <a href="//andreysalomatin.me/slides/git">
+                  http://andreysalomatin.me/slides/git
                 </a>
               </footer>
 
