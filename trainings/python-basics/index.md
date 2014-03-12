@@ -120,7 +120,7 @@ pull-request из вашего бранча `develop` в бранч `develop` о
 * [Доработать Test Runner][issue-36]
 * [add\_to\_dict][issue-33]
 * [sum\_args][issue-31]
-* [Частота слов][issue-35]
+* [Частота слов][issue-35] (по желанию)
 
 [intro]: http://andreysalomatin.me/slides/python-intro
 [env]: http://andreysalomatin.me/slides/python-dev-env
