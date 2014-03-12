@@ -82,6 +82,45 @@
 * [Git Internals - The Refspec][git-int-refspec]
 * [Unicode HOWTO][unicode]
 
+<span id="session-3"></span>
+<h2>3 занятие</h2>
+
+
+### Практика:
+
+Выполняйте каждую задачу в отдельном бранче. Затем сливайте изменения в
+`develop` (not fast-forward). Имя бранча должно быть вида
+`practice\[task-name]`.
+
+После выполнения всех заданий, синхронизируйте все бранчи локального
+репозитория с вашим удалённым репозиторием на GitHub и создайте
+pull-request из вашего бранча `develop` в бранч `develop` оригинального
+репозитория.
+
+Создавайте новые файлы в директории `practice_3/[ваше_имя]/`.
+
+* [Необязательный параметр message в assertions][issue-30]
+* [unique с помощью dict][issue-29]
+* [Test Runner][issue-34]
+* [my\_range][issue-32] (по желанию)
+
+### Домашнее задание:
+
+Выполняйте каждую задачу в отдельном бранче. Затем сливайте изменения в
+`develop` (not fast-forward). Имя бранча должно быть вида
+`homework\[task-name]`.
+
+После выполнения всех заданий, синхронизируйте все бранчи локального
+репозитория с вашим удалённым репозиторием на GitHub и создайте
+pull-request из вашего бранча `develop` в бранч `develop` оригинального
+репозитория.
+
+Создавайте новые файлы в директории `hw_3/[ваше_имя]/`.
+
+* [Доработать Test Runner][issue-36]
+* [add\_to\_dict][issue-33]
+* [sum\_args][issue-31]
+* [Частота слов][issue-35]
 
 [intro]: http://andreysalomatin.me/slides/python-intro
 [env]: http://andreysalomatin.me/slides/python-dev-env
@@ -120,3 +159,14 @@
 [docstring-conventions]: http://legacy.python.org/dev/peps/pep-0257/
 [git-int-ref]: http://git-scm.com/book/en/Git-Internals-Git-References
 [git-int-refspec]: http://git-scm.com/book/en/Git-Internals-The-Refspec
+
+
+
+[issue-29]: https://github.com/filipovskii/python-basics/issues/29
+[issue-30]: https://github.com/filipovskii/python-basics/issues/30
+[issue-31]: https://github.com/filipovskii/python-basics/issues/31
+[issue-32]: https://github.com/filipovskii/python-basics/issues/32
+[issue-33]: https://github.com/filipovskii/python-basics/issues/33
+[issue-34]: https://github.com/filipovskii/python-basics/issues/34
+[issue-35]: https://github.com/filipovskii/python-basics/issues/35
+[issue-36]: https://github.com/filipovskii/python-basics/issues/36
