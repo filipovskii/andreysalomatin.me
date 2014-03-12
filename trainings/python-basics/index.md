@@ -122,6 +122,14 @@ pull-request из вашего бранча `develop` в бранч `develop` о
 * [sum\_args][issue-31]
 * [Частота слов][issue-35] (по желанию)
 
+### Ссылки:
+
+* [Defining Functions][def-func]
+* [Collections][collections]
+* [First-class function][first-class-function]
+* [map function][python-map]
+* [filter function][python-filter]
+
 [intro]: http://andreysalomatin.me/slides/python-intro
 [env]: http://andreysalomatin.me/slides/python-dev-env
 [git]: http://andreysalomatin.me/slides/git-basics
@@ -170,3 +178,12 @@ pull-request из вашего бранча `develop` в бранч `develop` о
 [issue-34]: https://github.com/filipovskii/python-basics/issues/34
 [issue-35]: https://github.com/filipovskii/python-basics/issues/35
 [issue-36]: https://github.com/filipovskii/python-basics/issues/36
+
+
+
+[def-func]: http://docs.python.org/2/tutorial/controlflow.html#defining-functions
+[collections]: http://docs.python.org/2/library/collections.html
+[first-class-function]: http://en.wikipedia.org/wiki/First-class_function
+[python-map]: http://docs.python.org/2.7/library/functions.html#map
+[python-filter]: http://docs.python.org/2.7/library/functions.html#filter
+
