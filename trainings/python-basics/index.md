@@ -130,6 +130,36 @@ pull-request из вашего бранча `develop` в бранч `develop` о
 * [map function][python-map]
 * [filter function][python-filter]
 
+
+<span id="session-4"></span>
+<h2>4 занятие</h2>
+
+### Парктика
+
+Выполняйте каждую задачу в отдельном бранче. Затем сливайте изменения в
+`develop` (not fast-forward). Имя бранча должно быть вида
+`practice\[task-name]`.
+
+
+* [Структура фреймворка для юнит-тестирования autotest][issue-45]
+* [Возможность запускать тесты из командной строки][issue-46]
+* [Тесты для todo-приложения][issue-47]
+
+
+### Домашняя работа
+
+Выполняйте каждую задачу в отдельном бранче. Затем сливайте изменения в
+`develop` (not fast-forward). Имя бранча должно быть вида
+`homework\[task-name]`.
+
+* [Следующая задача в списке][issue-48]
+
+### Ссылки
+
+* [The Python Tutorial - Modules][python-modules]
+* [Unit Testing][wiki-unit-testing]
+
+
 [intro]: http://andreysalomatin.me/slides/python-intro
 [env]: http://andreysalomatin.me/slides/python-dev-env
 [git]: http://andreysalomatin.me/slides/git-basics
@@ -187,3 +217,12 @@ pull-request из вашего бранча `develop` в бранч `develop` о
 [python-map]: http://docs.python.org/2.7/library/functions.html#map
 [python-filter]: http://docs.python.org/2.7/library/functions.html#filter
 
+
+<!-- Session 4 -->
+[issue-45]: https://github.com/filipovskii/python-basics/issues/45
+[issue-46]: https://github.com/filipovskii/python-basics/issues/46
+[issue-47]: https://github.com/filipovskii/python-basics/issues/47
+[issue-48]: https://github.com/filipovskii/python-basics/issues/48
+
+[python-modules]: http://docs.python.org/2/tutorial/modules.html
+[wiki-unit-testing]: http://en.wikipedia.org/wiki/Unit_testing
