@@ -160,6 +160,32 @@ pull-request из вашего бранча `develop` в бранч `develop` о
 * [Unit Testing][wiki-unit-testing]
 
 
+<span id="session-5"></span>
+### Парктика
+
+Выполняйте каждую задачу в отдельном бранче. Затем сливайте изменения в
+`develop` (not fast-forward). Имя бранча должно быть вида
+`practice\[task-name]`.
+
+
+* [Test Runner class][issue-56]
+* [Поддержка Test Case классов][issue-57]
+
+
+### Домашняя работа
+
+Выполняйте каждую задачу в отдельном бранче. Затем сливайте изменения в
+`develop` (not fast-forward). Имя бранча должно быть вида
+`homework\[task-name]`.
+
+* [Класс Test Result][issue-58]
+
+### Ссылки
+
+* [Python Tutorial: Classes][python-classes]
+* [New-style and classic classes][python-new-vs-old]
+* [Stop Writing Classes (Video)][python-stop-writing-classes]
+
 [intro]: http://andreysalomatin.me/slides/python-intro
 [env]: http://andreysalomatin.me/slides/python-dev-env
 [git]: http://andreysalomatin.me/slides/git-basics
@@ -226,3 +252,12 @@ pull-request из вашего бранча `develop` в бранч `develop` о
 
 [python-modules]: http://docs.python.org/2/tutorial/modules.html
 [wiki-unit-testing]: http://en.wikipedia.org/wiki/Unit_testing
+
+<!-- Session 5 -->
+[issue-56]: https://github.com/filipovskii/python-basics/issues/56
+[issue-57]: https://github.com/filipovskii/python-basics/issues/57
+[issue-58]: https://github.com/filipovskii/python-basics/issues/58
+
+[python-classes]: http://docs.python.org/2/tutorial/classes.html
+[python-new-vs-old]: http://docs.python.org/2/reference/datamodel.html#new-style-and-classic-classes
+[python-stop-writing-classes]: http://www.youtube.com/watch?v=o9pEzgHorH0
