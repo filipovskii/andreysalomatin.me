@@ -188,6 +188,33 @@ pull-request из вашего бранча `develop` в бранч `develop` о
 * [New-style and classic classes][python-new-vs-old]
 * [Stop Writing Classes (Video)][python-stop-writing-classes]
 
+
+<span id="session-6"></span>
+<h2>6 занятие</h2>
+
+### Парктика
+
+Выполняйте каждую задачу в отдельном бранче. Затем сливайте изменения в
+`develop` (not fast-forward). Имя бранча должно быть вида
+`practice\[task-name]`.
+
+
+* [Test Reporting с помощью наследования][issue-67]
+* [Test Reporting с помощью композиции][issue-68]
+
+
+### Домашняя работа
+
+* [Feedback по первой части тренинга][issue-69]
+
+### Ссылки
+
+* [The History of Python: Method Resolution Order][python-mro]
+* [Python Tutorial: Classes][python-classes]
+* [Python Tutorial: Built-in Exceptions][python-built-in-exceptions]
+* [Learn Python The Hard Way: Composition over Inheritance][composition-over-inheritance]
+* [Python Docs: super()][python-super]
+
 [intro]: http://andreysalomatin.me/slides/python-intro
 [env]: http://andreysalomatin.me/slides/python-dev-env
 [git]: http://andreysalomatin.me/slides/git-basics
@@ -263,3 +290,15 @@ pull-request из вашего бранча `develop` в бранч `develop` о
 [python-classes]: http://docs.python.org/2/tutorial/classes.html
 [python-new-vs-old]: http://docs.python.org/2/reference/datamodel.html#new-style-and-classic-classes
 [python-stop-writing-classes]: http://www.youtube.com/watch?v=o9pEzgHorH0
+
+
+<!-- Session 6 -->
+[issue-67]: https://github.com/filipovskii/python-basics/issues/67
+[issue-68]: https://github.com/filipovskii/python-basics/issues/68
+[issue-69]: https://github.com/filipovskii/python-basics/issues/69
+
+[python-mro]: http://python-history.blogspot.ru/2010/06/method-resolution-order.html
+[python-built-in-exceptions]: http://docs.python.org/2/library/exceptions.html
+[composition-over-inheritance]: http://learnpythonthehardway.org/book/ex44.html
+[python-super]: http://docs.python.org/2.7/library/functions.html#super
+
