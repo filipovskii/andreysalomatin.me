@@ -215,6 +215,39 @@ pull-request из вашего бранча `develop` в бранч `develop` о
 * [Learn Python The Hard Way: Composition over Inheritance][composition-over-inheritance]
 * [Python Docs: super()][python-super]
 
+
+
+<span id="session-7"></span>
+<h2>7 занятие</h2>
+
+### Парктика
+
+Выполняйте каждую задачу в отдельном бранче. Затем сливайте изменения в
+`develop` (not fast-forward). Имя бранча должно быть вида
+`practice\[task-name]`.
+
+* [Декораторы with_set_up, with_tear_down][issue-79]
+* [TextFileReporter][issue-82]
+
+### Домашняя работа
+
+* [Декоратор log][issue-81]
+* [Имена тестов из сохранённых репортов][issue-84]
+* [Декоратор cache][issue-83] (по желанию)
+
+### Ссылки
+
+* [Understanding Python Decorators in 12 Easy Steps!][python-decorators-12]
+* [PEP 318 -- Decorators for Functions and Methods][python-decor-pep]
+* [Понимаем декораторы в Python'e, шаг за шагом. Шаг 1][python-decor-habr-1]
+* [Понимаем декораторы в Python'e, шаг за шагом. Шаг 2][python-decor-habr-2]
+
+* [Python Built-in Types: File Objects][python-file-obj]
+* [The Python Tutorial: Input and Output][python-io]
+* [os.path — Common pathname manipulations][python-os-path]
+
+
+
 [intro]: http://andreysalomatin.me/slides/python-intro
 [env]: http://andreysalomatin.me/slides/python-dev-env
 [git]: http://andreysalomatin.me/slides/git-basics
@@ -301,4 +334,22 @@ pull-request из вашего бранча `develop` в бранч `develop` о
 [python-built-in-exceptions]: http://docs.python.org/2/library/exceptions.html
 [composition-over-inheritance]: http://learnpythonthehardway.org/book/ex44.html
 [python-super]: http://docs.python.org/2.7/library/functions.html#super
+
+
+<!-- Session 7 -->
+[issue-79]: https://github.com/filipovskii/python-basics/issues/79
+[issue-81]: https://github.com/filipovskii/python-basics/issues/81
+[issue-82]: https://github.com/filipovskii/python-basics/issues/82
+[issue-83]: https://github.com/filipovskii/python-basics/issues/83
+[issue-84]: https://github.com/filipovskii/python-basics/issues/84
+
+
+[python-decorators-12]: http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/
+[python-decor-pep]: http://legacy.python.org/dev/peps/pep-0318/
+[python-decor-habr-1]: http://habrahabr.ru/post/141411/
+[python-decor-habr-2]: http://habrahabr.ru/post/141501/
+
+[python-file-obj]: http://docs.python.org/2/library/stdtypes.html#file-objects
+[python-io]: http://docs.python.org/2/tutorial/inputoutput.html
+[python-os-path]: http://docs.python.org/2/library/os.path.html
 
