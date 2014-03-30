@@ -377,9 +377,9 @@ pull-request из вашего бранча `develop` в бранч `develop` о
 
 
 <!-- Session 8 -->
-[issue-88]: https://github.com/filipovskii/python-basics/issues/82
-[issue-89]: https://github.com/filipovskii/python-basics/issues/83
-[issue-90]: https://github.com/filipovskii/python-basics/issues/84
+[issue-88]: https://github.com/filipovskii/python-basics/issues/88
+[issue-89]: https://github.com/filipovskii/python-basics/issues/89
+[issue-90]: https://github.com/filipovskii/python-basics/issues/90
 
 [python-staticmethod]: http://docs.python.org/2.7/library/functions.html#staticmethod
 [python-classmethod]: http://docs.python.org/2.7/library/functions.html#classmethod
