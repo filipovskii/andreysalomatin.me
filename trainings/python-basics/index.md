@@ -247,6 +247,28 @@ pull-request из вашего бранча `develop` в бранч `develop` о
 * [os.path — Common pathname manipulations][python-os-path]
 
 
+<span id="session-8"></span>
+<h2>8 занятие</h2>
+
+### Практика
+
+Выполняйте каждую задачу в отдельном бранче. Затем сливайте изменения в
+`develop` (not fast-forward). Имя бранча должно быть вида
+`practice\[task-name]`.
+
+* [Property в runner-е][issue-88]
+* [Фабричные методы runner-а][issue-89]
+
+### Домашняя работа
+
+* [Конвертер валют. Начало][issue-90]
+
+### Ссылки
+
+* [Python Docs: staticmethod][python-staticmethod]
+* [Python Docs: classmethod][python-classmethod]
+* [Python Docs: property][python-property]
+* [A Guide to Python's Magic Methods][python-magic-methods]
 
 [intro]: http://andreysalomatin.me/slides/python-intro
 [env]: http://andreysalomatin.me/slides/python-dev-env
@@ -352,4 +374,16 @@ pull-request из вашего бранча `develop` в бранч `develop` о
 [python-file-obj]: http://docs.python.org/2/library/stdtypes.html#file-objects
 [python-io]: http://docs.python.org/2/tutorial/inputoutput.html
 [python-os-path]: http://docs.python.org/2/library/os.path.html
+
+
+<!-- Session 8 -->
+[issue-88]: https://github.com/filipovskii/python-basics/issues/82
+[issue-89]: https://github.com/filipovskii/python-basics/issues/83
+[issue-90]: https://github.com/filipovskii/python-basics/issues/84
+
+[python-staticmethod]: http://docs.python.org/2.7/library/functions.html#staticmethod
+[python-classmethod]: http://docs.python.org/2.7/library/functions.html#classmethod
+[python-property]: http://docs.python.org/2.7/library/functions.html#property
+[python-magic-methods]: http://www.rafekettler.com/magicmethods.html
+
 
