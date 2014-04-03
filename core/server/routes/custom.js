@@ -72,6 +72,7 @@ module.exports.exchange = function (server) {
       return;
     }
 
+    res.set('Content-Type', 'application/json');
     res.json({
       from: from,
       to: to,
