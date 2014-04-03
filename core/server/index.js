@@ -131,6 +131,7 @@ function setup(server) {
         routes.custom.meetme(server);
         routes.custom.slides(server);
         routes.custom.trainings(server);
+        routes.custom.exchange(server);
 
         // ## Middleware
         middleware(server, dbHash);
