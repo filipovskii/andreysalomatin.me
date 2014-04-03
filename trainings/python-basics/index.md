@@ -270,6 +270,29 @@ pull-request из вашего бранча `develop` в бранч `develop` о
 * [Python Docs: property][python-property]
 * [A Guide to Python's Magic Methods][python-magic-methods]
 
+<span id="session-9"></span>
+<h2>9 занятие</h2>
+
+### Практика
+
+Выполняйте каждую задачу в отдельном бранче. Затем сливайте изменения в
+`develop` (not fast-forward). Имя бранча должно быть вида
+`practice\[task-name]`.
+
+* [Загрузка курсов валют при создании объекта Currency][issue-96]
+* [Сохранение курсов валют в файл][issue-97]
+
+### Домашняя работа
+
+* [Сокет-сервер с курсами валют][issue-98] (по желанию)
+
+### Ссылки
+
+* [Python Socket Docs][python-socket]
+* [urllib2][python-urllib]
+* [json][python-json]
+
+
 [intro]: http://andreysalomatin.me/slides/python-intro
 [env]: http://andreysalomatin.me/slides/python-dev-env
 [git]: http://andreysalomatin.me/slides/git-basics
@@ -385,5 +408,15 @@ pull-request из вашего бранча `develop` в бранч `develop` о
 [python-classmethod]: http://docs.python.org/2.7/library/functions.html#classmethod
 [python-property]: http://docs.python.org/2.7/library/functions.html#property
 [python-magic-methods]: http://www.rafekettler.com/magicmethods.html
+
+
+<!-- Session 9 -->
+[issue-96]: https://github.com/filipovskii/python-basics/issues/96
+[issue-97]: https://github.com/filipovskii/python-basics/issues/97
+[issue-98]: https://github.com/filipovskii/python-basics/issues/98
+
+[python-socket]: https://docs.python.org/2/library/socket.html
+[python-urllib]: https://docs.python.org/2/library/urllib2.html
+[python-json]: https://docs.python.org/2/library/json.html
 
 
