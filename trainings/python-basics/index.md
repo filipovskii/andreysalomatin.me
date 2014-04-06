@@ -293,6 +293,29 @@ pull-request из вашего бранча `develop` в бранч `develop` о
 * [json][python-json]
 
 
+<span id="session-10"></span>
+<h2>10 занятие</h2>
+
+### Практика
+
+Выполняйте каждую задачу в отдельном бранче. Затем сливайте изменения в
+`develop` (not fast-forward). Имя бранча должно быть вида
+`practice\[task-name]`.
+
+* [Курсы обмена из базы][issue-108]
+* [Изменение курсов в базе][issue-109]
+
+### Ссылки
+
+* [sqlite][sqlite]
+* [sqlite locking][sqlite-locking]
+* [sqlite transaction][sqlite-transaction]
+* [sqlite shared cache][sqlite-isolation]
+* [Python Docs: sqlite3][python-sqlite3]
+* [Python Docs: namedtuple][python-namedtuple]
+
+
+
 [intro]: http://andreysalomatin.me/slides/python-intro
 [env]: http://andreysalomatin.me/slides/python-dev-env
 [git]: http://andreysalomatin.me/slides/git-basics
@@ -418,5 +441,17 @@ pull-request из вашего бранча `develop` в бранч `develop` о
 [python-socket]: https://docs.python.org/2/library/socket.html
 [python-urllib]: https://docs.python.org/2/library/urllib2.html
 [python-json]: https://docs.python.org/2/library/json.html
+
+
+<!-- Session 10 -->
+[issue-108]: https://github.com/filipovskii/python-basics/issues/108
+[issue-109]: https://github.com/filipovskii/python-basics/issues/109
+
+[sqlite]: https://www.sqlite.org/
+[python-sqlite3]: https://docs.python.org/2/library/sqlite3.html
+[python-namedtuple]: https://docs.python.org/2/library/collections.html#collections.namedtuple
+[sqlite-locking]: https://www.sqlite.org/lockingv3.html
+[sqlite-isolation]: https://www.sqlite.org/sharedcache.html
+[sqlite-transaction]: http://sqlite.org/lang_transaction.html
 
 
