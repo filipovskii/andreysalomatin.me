@@ -311,6 +311,7 @@ pull-request из вашего бранча `develop` в бранч `develop` о
 * [sqlite locking][sqlite-locking]
 * [sqlite transaction][sqlite-transaction]
 * [sqlite shared cache][sqlite-isolation]
+* [PEP 249: Python Database API Specification v2.0][python-pep-249]
 * [Python Docs: sqlite3][python-sqlite3]
 * [Python Docs: namedtuple][python-namedtuple]
 
@@ -450,6 +451,7 @@ pull-request из вашего бранча `develop` в бранч `develop` о
 [sqlite]: https://www.sqlite.org/
 [python-sqlite3]: https://docs.python.org/2/library/sqlite3.html
 [python-namedtuple]: https://docs.python.org/2/library/collections.html#collections.namedtuple
+[python-pep-249]: http://legacy.python.org/dev/peps/pep-0249/
 [sqlite-locking]: https://www.sqlite.org/lockingv3.html
 [sqlite-isolation]: https://www.sqlite.org/sharedcache.html
 [sqlite-transaction]: http://sqlite.org/lang_transaction.html
