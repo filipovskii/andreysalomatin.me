@@ -316,6 +316,26 @@ pull-request из вашего бранча `develop` в бранч `develop` о
 * [Python Docs: namedtuple][python-namedtuple]
 
 
+<span id="session-11"></span>
+<h2>11 занятие</h2>
+
+### Практика
+
+Выполняйте каждую задачу в отдельном бранче. Затем сливайте изменения в
+`develop` (not fast-forward). Имя бранча должно быть вида
+`practice\[task-name]`.
+
+* [Установите pip][issue-113]
+* [Unit-тесты для модуля currency][issue-114]
+
+### Ссылки
+
+* [Python Docs: Installing Python Modules][python-distutils]
+* [Python Docs: Distutils Setup Script][python-distutils-setup]
+* [pip][pip]
+* [pip installation][pip-install]
+* [PyPI - the Python Package Index][pypi]
+* [The Hitchhiker's Guide to Packaging][guide-packaging]
 
 [intro]: http://andreysalomatin.me/slides/python-intro
 [env]: http://andreysalomatin.me/slides/python-dev-env
@@ -457,3 +477,13 @@ pull-request из вашего бранча `develop` в бранч `develop` о
 [sqlite-transaction]: http://sqlite.org/lang_transaction.html
 
 
+<!-- Session 11 -->
+[issue-113]: https://github.com/filipovskii/python-basics/issues/113
+[issue-114]: https://github.com/filipovskii/python-basics/issues/114
+
+[python-distutils]: https://docs.python.org/2/install/
+[python-distutils-setup]: https://docs.python.org/2/distutils/setupscript.html
+[pip]: http://www.pip-installer.org/
+[pip-install]: http://pip.readthedocs.org/en/latest/installing.html
+[pypi]: https://pypi.python.org/pypi
+[guide-packaging]: http://guide.python-distribute.org/creation.html
