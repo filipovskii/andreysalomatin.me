@@ -3,6 +3,7 @@
   <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
+  <title>Andrey Salomatin @flpvsk</title>
 <style>
 
 body {
@@ -35,7 +36,7 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
   font-size: 2em;
 }
 
@@ -48,7 +49,7 @@ h3 {
   margin: 0;
   padding: 0;
   font-size: 1em;
-  line-height: 1.3em;
+  line-height: 1.5em;
   color: #444;
 }
 
@@ -66,24 +67,35 @@ ul {
 }
 
 section {
-  margin-top: 24px;
+  margin-top: 42px;
 }
 
-li + li, .text + .text {
+.text + .text {
   margin-top: 0.5em;
+}
+
+li + li {
+  margin-top: 1em;
+}
+
+.details {
+  margin: 0;
+  padding: 0;
+  font-size: 0.75em;
+  line-height: 1.2em;
 }
 
 
 @media (max-width: 600px) {
   body {
-    margin: 10px;
+    margin: 0px 10px 10px 10px;
   }
 }
 
 
 @media (min-width: 600px) {
   body {
-    margin: 25px;
+    margin: 0px 25px 25px 25px;
   }
 }
 
@@ -101,15 +113,18 @@ li + li, .text + .text {
   <section>
     <header><h2>About</h2></header>
     <p class="text">
-Hi, I'm Andrey, and I'm working as a Product Owner
+Hi, I'm Andrey. I work as a Product Manager
 at&nbsp;<a href="http://productivemobile.com">Productive Mobile</a>,
 based in Berlin, Germany.
     </p>
     <p class="text">
-      Before I worked as a full-stack developer. Today I make
-      <a title="Code Podcast"
-         href="http://codepodcast.com/">Code&nbsp;Podcast</a>. A show
-       about <span title='love'>❤️ </span> and programming.
+Before I've been a fullstack developer for 7 years. I still enjoy learning
+and making things, but I don't write code for a living anymore.
+    </p>
+    <p class="text">
+I make <a title="Code Podcast"
+  href="http://codepodcast.com/">Code&nbsp;Podcast</a>. A show
+about <span title='love'>❤️ </span> and programming.
     </p>
   </section>
 
@@ -130,11 +145,18 @@ based in Berlin, Germany.
     <header><h2>Current projects</h2></header>
     <p class="text">
       <ul class="text">
-        <li><a href="http://codepodcast.com/">Code&nbsp;Podcast</a>
+        <li>
+          <a href="http://codepodcast.com/">Code&nbsp;Podcast</a>
+          <p class="details">
+Show about ideas that shape the way we build software.
+          </p>
         </li>
         <li>
           <a href="https://www.meetup.com/Kaizen-Berlin/">Kaizen Berlin
             meetup</a>
+          <p class="details">
+Continuously improving work processes, businesses, society.
+          </p>
         </li>
       </ul>
     </p>
@@ -145,14 +167,38 @@ based in Berlin, Germany.
     <p class="text">
       <ul class="text">
         <li>
+          <a href="https://t.me/ddrama_bot">
+            DramaBot</a>
+          <p class="details">
+Telegram conversation bot trained on movie dialogs.
+          </p>
+        </li>
+        <li>
           <a href="http://moscowjs.ru">MoscowJS meetup</a>
+          <p class="details">
+Friendly JavaScript community in Moscow.
+          </p>
         </li>
         <li><a
             href="http://frontend-union.co">Frontend&nbsp;Union&nbsp;Conf</a>
+          <p class="details">
+Bringing frontend meetups together for a one-day conference.
+          </p>
         </li>
-        <li><a href="http://radiojs.ru">RadioJS podcast</a></li>
-        <li>More in&nbsp;my&nbsp;outdated&nbsp;<a
-            href="files/AndreySalomatin-CV.pdf">CV</a></li>
+        <li>
+          <a href="http://radiojs.ru">RadioJS podcast</a>
+          <p class="details">
+Russian JavaScript community podcast.
+          </p>
+        </li>
+        <li>
+          <a
+            href="files/AndreySalomatin-CV.pdf">
+             My&nbsp;outdated&nbsp;CV</a>
+          <p class="details">
+Seriously, I'm like a completely different person now.
+          </p>
+        </li>
       </ul>
     </p>
   </section>
